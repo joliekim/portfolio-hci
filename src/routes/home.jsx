@@ -2,17 +2,7 @@ import { Link } from 'react-router-dom'
 
 function Home() {
   return (
-    <div className="container">
-      <header className="header">
-        <h1 className="name">Heeji (Jolie) Kim</h1>
-        <nav className="nav">
-          <Link to="/">home</Link>
-          <Link to="/publications">publications</Link>
-          <Link to="/projects">projects</Link>
-          <Link to="/misc">misc</Link>
-        </nav>
-      </header>
-
+    <>
       <div className="title">
         HCI Researcher<br />
         MSc. Candidate @ KAIST<br />
@@ -47,7 +37,7 @@ function Home() {
         combining principles from design, cognitive science, and machine learning to prototype interactive 
         systems that are responsive, relatable, and inclusive.<br />
         <br />
-        Before joining KAIST, I earned a B.S. in Culture and Design Management from <a href="https://www.yonsei.ac.kr/en_sc/index.jsp" target="_blank" rel="noreferrer">Yonsei University</a>. I also gained professional experience working 
+        Before joining KAIST, I earned a B.S. in <a href="https://cdmstudentcouncil1.wixsite.com/yonseicdm" target="_blank" rel="noreferrer">Culture and Design Management</a> from <a href="https://www.yonsei.ac.kr/en_sc/index.jsp" target="_blank" rel="noreferrer">Yonsei University</a>. I also gained professional experience working 
         across diverse industries including AdTech, Blockchain, and F&B, where I co-founded a startup 
         focused on sustainable food innovation.
       </div>
@@ -60,11 +50,7 @@ function Home() {
         <img src="/images/food.png" alt="Portfolio image 5" />
         <img src="/images/relationship.png" alt="Portfolio image 6" />
       </div>
-
-      <footer className="footer">
-        © 2025 by Jolie Kim | Last updated: 04/2025
-      </footer>
-    </div>
+    </>
   )
 }
 

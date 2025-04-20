@@ -7,15 +7,22 @@
 }
 
 .container {
-  padding: 42px 45px;
+  padding: 100px 45px 42px 45px;
   text-align: left;
   color: #000000;
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 30px 45px;
+  background-color: white;
+  z-index: 1000;
 }
 
 .name {
@@ -26,6 +33,8 @@
 .nav {
   display: flex;
   gap: 9px;
+  margin-left: auto;
+  font-size: 18px;
 }
 
 .nav a {
@@ -42,7 +51,8 @@
 .title {
   font-size: 18px;
   font-weight: 500;
-  margin: 30px 0;
+  margin: 0 0 30px 0;
+  padding-top: 20px;
 }
 
 .social-links {
@@ -100,4 +110,300 @@
 .footer {
   font-size: 14px;
   margin-top: 100px;
+}
+
+.publications-list {
+  max-width: 900px;
+  margin: 30px 0;
+}
+
+.publication-item {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.publication-year {
+  font-size: 17px;
+  font-weight: 500;
+  min-width: 60px;
+  color: #666666;
+}
+
+.publication-content {
+  flex: 1;
+}
+
+.publication-content h2 {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0 0 12px 0;
+}
+
+.publication-content .authors {
+  font-size: 16px;
+  margin: 0 0 8px 0;
+  color: #333333;
+}
+
+.author-highlight {
+  font-weight: 700;
+}
+
+.publication-content .venue {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0 0 12px 0;
+  color: #666666;
+}
+
+.publication-links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.publication-links a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.publication-links a:hover {
+  color: #ff3826;
+  transition: color 0.2s ease;
+}
+
+.link-separator {
+  color: #666666;
+  font-weight: 300;
+}
+
+.publication-image {
+  margin-bottom: 15px;
+}
+
+.publication-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Add responsive styles */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 100px 20px 30px 20px;
+  }
+
+  .header {
+    padding: 20px;
+  }
+
+  .name {
+    font-size: 18px;
+  }
+
+  .nav {
+    gap: 5px;
+  }
+
+  .nav a {
+    padding: 0 5px;
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .bio {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .photo-grid img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+  }
+
+  /* Publications page responsive styles */
+  .publication-item {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+
+  .publication-year {
+    font-size: 16px;
+    min-width: auto;
+  }
+
+  .publication-content h2 {
+    font-size: 16px;
+  }
+
+  .publication-content .authors,
+  .publication-content .venue {
+    font-size: 15px;
+  }
+
+  .publication-links {
+    flex-wrap: wrap;
+  }
+
+  .publication-image img {
+    max-width: 100%;
+  }
+}
+
+/* For very small screens */
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 80px 15px 20px 15px;
+  }
+
+  .header {
+    padding: 15px;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+
+  .nav a {
+    font-size: 13px;
+  }
+
+  .photo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .social-links {
+    gap: 10px;
+  }
+
+  .social-links a {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+/* Add meta viewport tag to index.html if not already present */
+
+/* Projects styles */
+.projects-list {
+  max-width: 900px;
+  margin: 30px 0;
+}
+
+.project-item {
+  margin-bottom: 60px;
+}
+
+.project-image {
+  margin-bottom: 20px;
+}
+
+.project-image img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.project-content h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 15px 0;
+}
+
+.project-description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 15px 0;
+  color: #333333;
+}
+
+.project-links {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.project-links a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.project-links a:hover {
+  color: #ff3826;
+  transition: color 0.2s ease;
+}
+
+/* Misc styles */
+.misc-content {
+  max-width: 900px;
+  margin: 30px 0;
+}
+
+.misc-section {
+  margin-bottom: 50px;
+}
+
+.misc-section h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 20px 0;
+}
+
+.misc-item {
+  margin-bottom: 30px;
+}
+
+.misc-item h3 {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+}
+
+.misc-item p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 10px 0;
+  color: #333333;
+}
+
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+/* Add to existing responsive styles */
+@media screen and (max-width: 768px) {
+  .interests-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .project-content h2 {
+    font-size: 16px;
+  }
+
+  .project-description,
+  .misc-item p {
+    font-size: 15px;
+  }
 }
