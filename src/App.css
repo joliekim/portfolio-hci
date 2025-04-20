@@ -48,6 +48,11 @@
   cursor: pointer;
 }
 
+/* Add active link style */
+.nav a.active {
+  color: #ff3826;
+}
+
 .title {
   font-size: 18px;
   font-weight: 500;

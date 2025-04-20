@@ -22,6 +22,12 @@ function Publications() {
             <p className="venue">
               Archives of Design Research (AoDR Vol. 37, No. 4)
             </p>
+            <p className="abstract">
+            This study provides insights into how a tabletop robot companion influences the productivity of 
+            knowledge workers in WFH settings. By evaluating Roby in real-world contexts, we identify key factors 
+            that we hope can inform the design of future intelligent robot companions to optimize remote work 
+            experiences across various professional domains.
+            </p>
             <div className="publication-links">
               <a href="https://aodr.org/xml/41676/41676.pdf" target="_blank" rel="noreferrer">PDF</a>
               <span className="link-separator">·</span>

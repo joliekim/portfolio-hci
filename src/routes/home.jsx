@@ -26,9 +26,9 @@ function Home() {
       </div>
 
       <div className="bio">
-        I am an HCI researcher and a MSc. candidate in the <a href="https://id.kaist.ac.kr/home" target="_blank" rel="noreferrer">Department of Industrial Design</a> 
+        I am an HCI researcher and a MSc. candidate in the <a href="https://id.kaist.ac.kr/home" target="_blank" rel="noreferrer">Department of Industrial Design </a> 
         at <a href="https://www.kaist.ac.kr/en/index.html" target="_blank" rel="noreferrer">KAIST</a>, 
-        where I explore the intersection of physical and digital interaction in <a href="https://make.kaist.ac.kr/" target="_blank" rel="noreferrer">Make Lab</a> 
+        where I explore the intersection of physical and digital interaction in <a href="https://make.kaist.ac.kr/" target="_blank" rel="noreferrer">Make Lab </a> 
         led by Prof. <a href="https://make.kaist.ac.kr/andrea" target="_blank" rel="noreferrer">Andrea Bianchi</a>.<br />
         <br />
         My work centers on developing interactive systems that support increased expressiveness, creativity 
