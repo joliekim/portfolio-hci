@@ -5,7 +5,11 @@ function Layout() {
   return (
     <div className="container">
       <header className="header">
-        <h1 className="name">Heeji (Jolie) Kim</h1>
+        <div className="name-container">
+          <Link to="/" className="square-link">
+            <div className="square-icon"></div>
+          </Link>
+        </div>
         <nav className="nav">
           <Link to="/">home</Link>
           <Link to="/publications">publications</Link>

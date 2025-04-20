@@ -51,7 +51,7 @@
 .title {
   font-size: 18px;
   font-weight: 500;
-  margin: 0 0 30px 0;
+  margin: -10px 0 30px 0;
   padding-top: 20px;
 }
 
@@ -406,4 +406,28 @@
   .misc-item p {
     font-size: 15px;
   }
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.square-link {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.square-icon {
+  width: 20px;
+  height: 20px;
+  background-color: #000000;
+  transition: all 0.2s ease;
+}
+
+.square-link:hover .square-icon {
+  background-color: #ff3826;
+  transform: rotate(45deg);
 }

@@ -12,45 +12,24 @@ function Publications() {
           <div className="publication-year">2024</div>
           <div className="publication-content">
             <div className="publication-image">
-              <img src="/images/pub1.png" alt="Publication 1 thumbnail" />
+              <img src="/images/pub1.jpg" alt="Publication 1 thumbnail" />
             </div>
-            <h2>Title of Publication 1</h2>
+            <h2>Investigating Work Companion Robot Interactions to Enhance Work-from-Home Productivity and Experience
+            </h2>
             <p className="authors">
-              <span className="author-highlight">Heeji Kim</span>, Author Two, Author Three
+              <span className="author-highlight">Heeji Kim</span>, Bokyung Lee
             </p>
             <p className="venue">
-              Conference or Journal Name (ACRONYM'24)
+              Archives of Design Research (AoDR Vol. 37, No. 4)
             </p>
             <div className="publication-links">
-              <a href="#" target="_blank" rel="noreferrer">PDF</a>
+              <a href="https://aodr.org/xml/41676/41676.pdf" target="_blank" rel="noreferrer">PDF</a>
               <span className="link-separator">·</span>
-              <a href="#" target="_blank" rel="noreferrer">DOI</a>
-              <span className="link-separator">·</span>
-              <a href="#" target="_blank" rel="noreferrer">Video</a>
+              <a href="https://doi.org/10.15187/adr.2024.08.37.4.43" target="_blank" rel="noreferrer">DOI</a>
             </div>
           </div>
         </div>
 
-        <div className="publication-item">
-          <div className="publication-year">2023</div>
-          <div className="publication-content">
-            <div className="publication-image">
-              <img src="/images/pub2.png" alt="Publication 2 thumbnail" />
-            </div>
-            <h2>Title of Publication 2</h2>
-            <p className="authors">
-              Author One, <span className="author-highlight">Heeji Kim</span>, Author Three
-            </p>
-            <p className="venue">
-              Another Conference (CONF'23)
-            </p>
-            <div className="publication-links">
-              <a href="#" target="_blank" rel="noreferrer">PDF</a>
-              <span className="link-separator">·</span>
-              <a href="#" target="_blank" rel="noreferrer">DOI</a>
-            </div>
-          </div>
-        </div>
       </div>
     </>
   )

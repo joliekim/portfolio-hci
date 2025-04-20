@@ -4,6 +4,7 @@ function Home() {
   return (
     <>
       <div className="title">
+        <h1 className="name">Heeji (Jolie) Kim</h1><br />
         HCI Researcher<br />
         MSc. Candidate @ KAIST<br />
         Daejeon / Seoul, South Korea
@@ -25,17 +26,14 @@ function Home() {
       </div>
 
       <div className="bio">
-        I am an HCI researcher and a MSc. candidate in the <a href="https://id.kaist.ac.kr/home" target="_blank" rel="noreferrer">Department of Industrial Design</a> at <a href="https://www.kaist.ac.kr/en/index.html" target="_blank" rel="noreferrer">KAIST</a>, 
-        where I explore the intersection of physical and digital interaction in <a href="https://make.kaist.ac.kr/" target="_blank" rel="noreferrer">Make Lab</a> led by Prof. 
-        <a href="https://make.kaist.ac.kr/andrea" target="_blank" rel="noreferrer">Andrea Bianchi</a>.<br />
+        I am an HCI researcher and a MSc. candidate in the <a href="https://id.kaist.ac.kr/home" target="_blank" rel="noreferrer">Department of Industrial Design</a> 
+        at <a href="https://www.kaist.ac.kr/en/index.html" target="_blank" rel="noreferrer">KAIST</a>, 
+        where I explore the intersection of physical and digital interaction in <a href="https://make.kaist.ac.kr/" target="_blank" rel="noreferrer">Make Lab</a> 
+        led by Prof. <a href="https://make.kaist.ac.kr/andrea" target="_blank" rel="noreferrer">Andrea Bianchi</a>.<br />
         <br />
-        My work centers on designing intelligent systems that support human expression, 
-        learning, and behavior, especially in everyday environments. I am particularly interested in how 
-        embodied interfaces—such as robotic objects, expressive lighting, and adaptive interactions—can 
-        shape human experiences in meaningful and playful ways. My current research investigates the role 
-        of personality-driven interactions and non-verbal communication in human-robot interaction, 
-        combining principles from design, cognitive science, and machine learning to prototype interactive 
-        systems that are responsive, relatable, and inclusive.<br />
+        My work centers on developing interactive systems that support increased expressiveness, creativity 
+        and enhanced productivity. I am particularly interested in how embodied interfaces—such as robotic objects 
+        and adaptive interactions—can shape human experiences in meaningful and playful ways.<br />
         <br />
         Before joining KAIST, I earned a B.S. in <a href="https://cdmstudentcouncil1.wixsite.com/yonseicdm" target="_blank" rel="noreferrer">Culture and Design Management</a> from <a href="https://www.yonsei.ac.kr/en_sc/index.jsp" target="_blank" rel="noreferrer">Yonsei University</a>. I also gained professional experience working 
         across diverse industries including AdTech, Blockchain, and F&B, where I co-founded a startup 
