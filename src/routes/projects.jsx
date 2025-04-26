@@ -5,7 +5,7 @@ function Projects() {
         Projects
       </div>
 
-      <div className="projects-list">
+      {/* <div className="projects-list">
         <div className="project-item">
           <div className="project-image">
             <img src="/images/project1.png" alt="Project 1" />
@@ -43,6 +43,11 @@ function Projects() {
             </div>
           </div>
         </div>
+      </div> */}
+      <div className="under-construction">
+        <img src="/icons/construction.png" alt="Under Construction" />
+        <h2>Page Under Construction</h2>
+        <p>This section is currently being modified. Check back soon!</p>
       </div>
     </>
   )

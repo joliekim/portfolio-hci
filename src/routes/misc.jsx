@@ -5,7 +5,7 @@ function Misc() {
         Miscellaneous
       </div>
 
-      <div className="misc-content">
+      {/* <div className="misc-content">
         <section className="misc-section">
           <h2>Teaching</h2>
           <div className="misc-item">
@@ -37,6 +37,11 @@ function Misc() {
             </div>
           </div>
         </section>
+      </div> */}
+      <div className="under-construction">
+        <img src="/icons/construction.png" alt="Under Construction" />
+        <h2>Page Under Construction</h2>
+        <p>This section is currently being modified. Check back soon!</p>
       </div>
     </>
   )
